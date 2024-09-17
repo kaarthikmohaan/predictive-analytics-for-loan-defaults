@@ -8,3 +8,5 @@ Analyses LendingClub loan data to identify and understand patterns in defaulted 
 - Data preprocessing steps such as identifying features with more than 50% missing values and removing or imputing those features. It also uses PySpark's StringIndexer and VectorAssembler for feature encoding and vectorisation, critical for preparing the data for machine learning models.
 - Implements machine learning models, including Logistic Regression, to predict loan defaults. It involves setting up the model pipeline using PySpark’s CrossValidator and ParamGridBuilder to fine-tune the hyperparameters and evaluate model performance using metrics like ROC-AUC.
 - Visualize data using libraries like Matplotlib and Seaborn to generate insights about the loan data, such as distributions of loan statuses and relationships between features, enhancing understanding and communication of the data insights.
+
+![lending_club_loan_data](https://github.com/user-attachments/assets/4c9defaa-56fa-4f92-98de-d7d700cec2b9)
